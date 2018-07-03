@@ -1,0 +1,508 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: "微软雅黑";
+}
+.head{
+	width: 100%;
+	height: 44px;
+	background: black;
+}
+body{
+	background: #f7f7f5;
+}
+.main{
+	width: 1200px;
+	height: 100%;
+	margin:0 auto ;
+}
+.tubiao{
+	width: 100%;
+	height: 164px;
+	background: #f7f7f5;
+	padding-top: 30px;
+}
+.scroll{
+	width: 100%;
+	height: 600px;
+	margin-bottom: 50px;
+}
+.shangpin{
+	width: 100%;
+	height: 2294px;
+	margin-bottom: 80px;
+}
+.foot{
+	width: 100%;
+	height: 550px;
+}
+.head .main .nav{
+	width: 100%;
+	height: 44px;
+}
+.head .main .nav .left{
+	width: 262px;
+	height: 100%;
+	float: left;
+}
+.head .main .nav .left img{
+	width: 70px;
+	height: 20px;
+	margin: 10px auto;
+}
+.head .main .nav .mid{
+	width: 736px;
+	height: 100%;
+	float: left;
+	line-height: 44px;
+}
+.head .main .nav .mid .list{
+	margin-right: 44px;
+	font-size: 14px;
+	color: white;
+}
+.head .main .nav .mid .list:hover{
+	color: #aaa;
+}
+.head .main .nav .mid .list:nth-child(8){
+	margin-right: 0;
+}
+.head .main .nav .mid .list:nth-child(4){
+	color: #aaa;
+}
+.head .main .nav .right{
+	width: 202px;
+	height: 100%;
+	float: right;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.head .main .nav .right .iconfont{
+	display: block;
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+	color: #ffffff;
+}
+.head .main .nav .right .iconfont:hover{
+	color: #aaa;
+}
+.tubiao .main .top{
+	width: 429px;
+	height: 65px;
+	margin: 0 auto;
+}
+.tubiao .main .bottom{
+	width: 100%;
+	height: 70px;
+	padding:30px 0 17px; 
+}
+.tubiao .main .bottom a{
+	font-size: 12px;
+	color: #6c7880;
+	margin-left:30px; 
+	float: left;
+}
+.tubiao .main .bottom .mid{
+	width: 436px;
+	float: left;
+	margin-left:400px; 
+}
+.tubiao .main .bottom .right{
+	width: 364px;
+	float: right;
+}
+.tubiao .main .bottom .right a{
+	font-size: 14px;
+	color: #000;
+	float: right;
+}
+.tubiao .main .bottom .right a:hover{
+	color: orange;
+}
+.tubiao .main .bottom .right a:nth-child(1){
+	float: left;
+	margin-left: 190px;
+}
+.scroll .main .banner{
+	position: relative;
+}
+.scroll .main .banner img{
+	width: 100%;
+	height: 450px;
+}
+.scroll .main .banner .dotted{
+	width: 252px;
+	height: 5px;
+	position: absolute;
+	left: 475px;
+	bottom: 15px;
+}
+.scroll .main .banner .dotted .dot{
+	width: 42px;
+	height: 2px;
+	margin-right: 10px;
+	background: #dedede;
+	float: left;
+	
+}
+.scroll .main .banner .dotted .dot1{
+	height: 5px;
+}
+.scroll .main .banner .dotted .dot:nth-child(5){
+	margin-right: 0px;
+}
+.scroll .main .adv{
+	width: 100%;
+	height: 140px;
+	margin-top: 10px;
+} 
+.scroll .main .adv img{
+	width: 293px;
+	height: 140px;
+	margin-right: 4px;
+}
+.scroll .main .adv img:hover{
+	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+	transform: translate(0,-5px);
+	transition: all 0.5s;
+}
+.scroll .main .adv img:nth-child(4){
+	margin-right: 0px;
+}
+.shangpin .main .qijian{
+	margin-bottom: 50px;
+}
+.shangpin .main .qijian .top{
+	width: 100%;
+	height: 50px;
+}
+.shangpin .main .qijian .top span{
+	width: 100px;
+	height: 50px;
+	margin-left:570px;
+	font-size: 24px;
+}
+.shangpin .main .qijian .top a{
+	font-size: 14px;
+	float: right;
+	color: #333333;
+}
+.shangpin .main .qijian .top a:hover{
+	color: orange;
+}
+.shangpin .main .qijian .bottom{
+	width: 100%;
+	height: 512px;
+	background: #f7f7f5;
+}
+.shangpin .main .qijian .bottom .list .dongxiao{
+	width: 100%;
+	height: 138px;
+	position: absolute;
+	left: 0;
+	bottom: 60px;
+}
+.shangpin .main .qijian .bottom .list .dongxiao .active{
+	width: 100%;
+	height: 20px;
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.shangpin .main .qijian .bottom .list .dongxiao .active:nth-child(1){
+	font-size: 16px;
+}
+.shangpin .main .qijian .bottom .list .dongxiao .active:nth-child(2){
+	margin-top: 12px;
+	font-size: 14px;
+}
+.shangpin .main .qijian .bottom .list{
+	width: 394px;
+	height: 100%;
+	float: left;
+	margin-right: 9px;
+	background: #fff;
+	position: relative;
+}
+.shangpin .main .qijian .bottom .list:hover{
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+	transform: translate(0,-5px);
+	transition: all 0.5s;
+}
+.shangpin .main .qijian .bottom .list3{
+	margin-right: 0;
+}
+.shangpin .main .qijian .bottom .list img{
+	display: block;
+	width: 178px;
+	height: 220px;
+	margin: 64px auto 0;
+}
+.shangpin .main .qijian .bottom .list span{
+	width: 100%;
+	height: 20px;
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.shangpin .main .qijian .bottom .list span:nth-child(2){
+	font-size: 16px;
+}
+.shangpin .main .qijian .bottom .list span:nth-child(3){
+	margin-top: 12px;
+	font-size: 14px;
+}
+.shangpin .main .qijian .bottom .list span:nth-child(4){
+	font-size: 18px;
+	color: red;
+	margin-top: 50px;
+}
+.shangpin .main .iphone{
+	margin-bottom: 50px;
+}
+.shangpin .main .iphone .title{
+	width: 100%;
+	height: 50px;
+}
+.shangpin .main .iphone .title span{
+	width: 100px;
+	height: 50px;
+	margin-left:570px;
+	font-size: 24px;
+}
+.shangpin .main .iphone .title a{
+	font-size: 14px;
+	float: right;
+	color:#333;
+}
+.shangpin .main .iphone .title a:hover{
+	color: orange;
+}
+.shangpin .main .iphone .box{
+	width: 100%;
+	height: 770px;	
+	margin: 10px auto;
+}
+.shangpin .main .iphone .list{
+	width: 292px;
+	height: 382px;
+	margin-right: 9px;
+	margin-bottom: 5px;
+	background: #fff;
+	float: left;
+}
+.shangpin .main .iphone .list:hover{
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+	transform: translate(0,-5px);
+	transition: all 0.5s;
+}
+.shangpin .main .iphone .list1{
+	width: 594px;
+}
+.shangpin .main .iphone .list2{
+	margin-right: 0px;
+}
+.shangpin .main .iphone .list1 .bigtu{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+.shangpin .main .iphone .list img{
+	display: block;
+	width: 128px;
+	height: 162px;
+	margin: 48px auto 0;
+}
+.shangpin .main .iphone .list span{
+	width: 100%;
+	height: 25px;
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 25px;
+}
+.shangpin .main .iphone .list span:nth-child(2){
+	font-size: 16px;
+}
+.shangpin .main .iphone .list span:nth-child(3){
+	margin-top: 15px;
+	font-size: 14px;
+}
+.shangpin .main .iphone .list span:nth-child(4){
+	font-size: 18px;
+	color: red;
+	margin-top: 30px;
+}
+.shangpin .main .element .title{
+	width: 100%;
+	height: 50px;
+}
+.shangpin .main .element .title span{
+	margin-left: 522px;
+	margin-right: 156px;
+	font-size: 24px;
+}
+.shangpin .main .element .title a{
+	margin-right: 15px;
+	color: #000;
+}
+.shangpin .main .element .title a:hover{
+	color: orange;
+}
+.shangpin .main .element .title a:nth-child(5){
+	margin-right: 0;
+}
+.shangpin .main .element .lingjian .list{ 
+	width: 294px;
+	height: 384px;
+	background: #fff;
+	margin:0 6px 8px 0;
+	float: left;
+}
+.shangpin .main .element .lingjian .list:hover{
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+	transform: translate(0,-5px);
+	transition: all 0.5s;
+}
+.shangpin .main .element .list img{
+	display: block;
+	width: 128px;
+	height: 162px;
+	margin: 48px auto 0;
+}
+.shangpin .main .element .list span{
+	width: 100%;
+	height: 25px;
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 20px;
+}
+.shangpin .main .element .list span:nth-child(2){
+	font-size: 16px;
+}
+.shangpin .main .element .list span:nth-child(3){
+	margin-top: 3px;
+	font-size: 12px;
+}
+.shangpin .main .element .list span:nth-child(4){
+	font-size: 18px;
+	color: red;
+	margin-top: 30px;
+}
+.foot{
+	width: 100%;
+	height: 550px;
+	background: #fff;
+}
+.foot .main .listiems{
+	display: block;
+	width:100%;
+	height: 118px;
+	border-bottom: 1px solid #dedede; 
+	margin-bottom: 70px;
+}
+.foot .main .listiems .list{
+	display: block;
+	width: 300px;
+	height: 118px;
+	float: left;
+	line-height: 118px;
+	text-align: center;
+	font-size: 20px;
+	color: #333;
+}
+.foot .main .listiems .list .iconfont{
+	font-size: 20px;
+}
+.foot .main .bottom{
+	height: 260px;
+	border-bottom:  1px solid #dedede; 
+}
+.foot .main .bottom .list{
+	display: block;
+	width: 188px;
+	height: 258px;
+	float: left;
+	text-align: left;
+
+}
+.foot .main .bottom .list .listitem{
+	display: block;
+	width: 188px;
+	height: 16px;
+	margin-top: 5px;
+	color: #333;
+	font-size: 14px;
+}
+.foot .main .bottom .list .listitem1{
+	margin-top: 0px;
+	font-weight: bold;
+}
+.foot .main .bottom .list .listitem2{
+	margin-top: 30px;
+}
+.foot .main .bottom .list .listitem a{
+	font-size: 12px;
+	color: #333;
+}
+.foot .main .bottom .list .listitem a:hover{
+	color: dodgerblue;
+}
+.foot .main .bottom .right{
+	width: 260px;
+	height: 258px;
+	text-align: right;
+	float: right;
+	color:#333;
+}
+.foot .main .bottom .right a{
+	display: block;
+	font-size: 26px;
+	margin-bottom: 20px;
+	color: blue;
+}
+.foot .main .bottom .right a .iconfont{
+	font-size: 26px;
+}
+.foot .main .bottom .right .lright1{
+	font-size: 24px;
+	margin-bottom: 5px;
+
+}
+.foot .main .bottom .right .lright2{
+	font-size: 10px;
+}
+.foot .main .finish{
+	height: 100px;
+	width: 100%;
+}
+.foot .main .finish .left{
+	text-align: left;
+	line-height: 100px;
+	font-size: 10px;
+	width: 780px;
+	height: 100px;
+	color: #333;
+	float: left;
+}
+.foot .main .finish .left a{
+	color: #333;
+}
+.foot .main .finish .right{
+	float: right;
+	text-align: left;
+	line-height: 100px;
+	font-size: 10px;
+	color: #333;
+}
+.foot .main .finish .right a{
+	color: #333;
+}
